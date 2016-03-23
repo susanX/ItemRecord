@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "feb19743/ViewController.swift"
+            timestampString = "477606431.238775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "feb19743.ViewController.tView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "feb19743"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgooding/Documents/xcodework/feb19-2016/feb19743/feb19743/ViewController.swift"
+                  timestampString = "477606431.517761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "feb19743.ViewController.tView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "feb19743"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgooding/Documents/xcodework/feb19-2016/feb19743/feb19743/ViewController.swift"
+                  timestampString = "477606431.537489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "feb19743.ViewController.tView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "feb19743"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgooding/Documents/xcodework/feb19-2016/feb19743/feb19743/ViewController.swift"
+                  timestampString = "477606431.53786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "feb19743.ViewController.init (feb19743.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; feb19743.ViewController"
+                  moduleName = "feb19743"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgooding/Documents/xcodework/feb19-2016/feb19743/feb19743/ViewController.swift"
+                  timestampString = "477606431.538123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "feb19743.ViewController.init (feb19743.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;feb19743.ViewController&gt;"
+                  moduleName = "feb19743"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sgooding/Documents/xcodework/feb19-2016/feb19743/feb19743/ViewController.swift"
+                  timestampString = "477606431.538384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
