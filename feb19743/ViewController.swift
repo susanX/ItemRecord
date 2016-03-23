@@ -21,6 +21,24 @@ class ViewController: UIViewController {
     
     var db:CKDatabase!
     var itemRecord:[CKRecord] = []
+   
+    ////upload from dd
+    class func getDocumentsDirectory() -> NSString {
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as [String]
+        let documentsDirectory = paths[0]
+        print(documentsDirectory)
+        return documentsDirectory
+        
+    }
+    
+    class func getMp3URL() -> NSURL {
+        let audioFilename = getDocumentsDirectory().stringByAppendingPathComponent("meet.m3a")
+        let audioURL = NSURL(fileURLWithPath: audioFilename)
+        print(audioURL)
+        return audioURL
+    }
+    //////
+    
     
     @IBAction func didTapAdd(sender: AnyObject) {
                 if tAdd.text == "" || tAdd.text == nil {
@@ -51,20 +69,7 @@ class ViewController: UIViewController {
         
 
     }
-    class func getDocumentsDirectory() -> NSString {
-        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as [String]
-        let documentsDirectory = paths[0]
-        print(documentsDirectory)
-        return documentsDirectory
-        
-    }
-    
-    class func getMp3URL() -> NSURL {
-        let audioFilename = getDocumentsDirectory().stringByAppendingPathComponent("meet.m3a")
-        let audioURL = NSURL(fileURLWithPath: audioFilename)
-        print(audioURL)
-        return audioURL
-    }
+
     
     @IBAction func didTapDelete(sender: AnyObject) {
         deleteRecord(tDelete.text!)
